@@ -1,0 +1,2 @@
+# kanjikata
+a hugo theme
