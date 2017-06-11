@@ -4,18 +4,19 @@
 name = "Kanjikata"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
-description = ""
-homepage = "http://siteforthistheme.com/"
+description = "Kanjikata is my private theme."
+homepage = "http://kanjikata.de/"
 tags = []
 features = []
 min_version = "0.20.7"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "Jeffrey Scherling"
+  homepage = "kanjikata.de"
 
 # If porting an existing theme
 [original]
-  name = ""
-  homepage = ""
-  repo = ""
+  name = "Kanjikata"
+  homepage = "http://kanjikata.de/"
+  repo = "?"
+

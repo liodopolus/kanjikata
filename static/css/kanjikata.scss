@@ -1,0 +1,35 @@
+
+// kanjikate.scss
+
+// main colors
+// #696762; // grey bright
+// #FFB40D; // orange bright
+// #67D044; // green
+
+
+// variables
+$primaryColor: #696762; // grey bright
+
+a {
+	color: #67D044; // green
+  }
+
+body {
+	background: $primaryColor;
+     }
+
+p {
+	color: #FFB40D; // orange bright
+  }
+
+h1 {
+	color: #FFB40D; // orange bright
+   }
+
+h6 {
+	color: #67D044; // green
+   }
+
+.content {
+	color: #FFB40D; // orange bright
+         }
