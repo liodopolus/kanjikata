@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head>
+ <head>
+  <meta charset="utf-8">
 
- <meta charset="utf-8">
+  <title>{{ .Title }}</title>
+  {{ .Hugo.Generator }}
 
- <title>{{ .Title }}</title>
- {{ .Hugo.Generator }}
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/kanjikata.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css">
 
- <!-- CSS -->
- <link rel="stylesheet" href="{{ .Site.BaseURL }}css/kanjikata.css">
- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css">
+  <base href="{{ .Site.BaseURL }}">
+  <title>{{ .Site.Title }}</title>
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
- <base href="{{ .Site.BaseURL }}">
- <title>{{ .Site.Title }}</title>
- <link rel="canonical" href="{{ .Permalink }}">
- <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-
-</head>
-<body>
+ </head>
+ <body>

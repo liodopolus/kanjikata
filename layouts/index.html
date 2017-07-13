@@ -1,11 +1,26 @@
 {{ partial "header.html" . }}
 
- <h1>Kanjikata.de!</h1>
+<div class="row"> 
 
- {{- range first 3 .Data.Pages }}
- <h4><a  href="{{ .Permalink }}" >{{ .Title }}</a></h4>
- {{- end }}
+ <div class="col-9">
+  <div class="header"> 
+  {{ partial "domain.html" . }}
+  </div> 
 
+  <div class="main"> 
+  {{ .Content }}
+  {{ partial "lastposts.html" . }}
+  </div> 
+
+  <div class="footer"> 
+  Copyright (C) 2017 Jeffrey Scherling	
+  </div> 
+ </div> 
+
+ <div class="col-3"> 
  {{ partial "archiv.html" . }}
-     
+ </div> 
+
+</div> 
+
 {{ partial "footer-startseite.html" . }}

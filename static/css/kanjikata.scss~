@@ -90,7 +90,7 @@ html {
 [class*="col-"] {
 	float: left;
 	padding: 15px;
-	//border: 1px solid #FFB40D;
+	border: 1px solid #FFB40D;
 }
 
 /* Desktop */
