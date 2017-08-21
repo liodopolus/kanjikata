@@ -20,26 +20,34 @@ body {
   background: #696762; }
 
 a {
-  color: #67D044; }
+  color: #29b6f6;
+  text-decoration: none; }
 
 p {
   color: #FFB40D; }
 
 .header {
   color: #FFB40D;
-  font-size: 32pt; }
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-size: 48pt; }
 
 .content {
   color: #FFB40D; }
 
 .footer {
-  color: #FFB40D; }
+  color: #FFB40D;
+  font-size: 12pt; }
+
+.archiv {
+  font-size: 12pt; }
 
 * {
   box-sizing: border-box; }
 
 html {
-  font-family: "Lucida Sans", sans-serif; }
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  text-shadow: 2px 1px 2px #444; }
 
 .header {
   text-align: center;
